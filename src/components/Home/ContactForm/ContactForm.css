@@ -1,0 +1,8 @@
+.contact{
+    margin-top: 6rem;
+    background-image: linear-gradient(to right, rgba(71, 79, 98, 0.856), rgba(71, 79, 98, 0.89)), url(../../../images/dentalChair.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}

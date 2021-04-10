@@ -1,0 +1,21 @@
+.appointment-container{
+    margin-top: 7rem;
+    background-image: linear-gradient(#464f62c5, #464f62d0),url(../../../images/dentalChair.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    position: relative;
+}
+.text {
+    justify-self: left;
+    color: white;
+}
+
+.appoint-img{
+    width: 26rem;
+}

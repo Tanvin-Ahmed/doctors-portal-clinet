@@ -1,0 +1,5 @@
+.btn-color{
+    background-image: linear-gradient(to right, #0baca4, #838383);
+    color: white !important;
+    font-weight: 500 !important;
+}

@@ -1,0 +1,36 @@
+.card-container {
+    position: relative;
+}
+.card-container .overlay{
+    background-image: linear-gradient(to right, rgb(66, 231, 217), rgb(11, 179, 165));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    padding: 2rem 0.5rem;
+    height: 100%;
+    color: white;
+    display: none;
+}
+.card-container:hover .overlay {
+    display: block;
+}
+.overlay-btn{
+    border: none;
+    background: none;
+    font-size: 2rem;
+    color: white;
+    padding: 0.6rem 2rem;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.overlay-btn:hover {
+    transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    -o-transform: translateX(20px);
+}
